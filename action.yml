@@ -334,7 +334,7 @@ runs:
           # todo, might need to make this configurable too.
           # the default in build tools is 180. But that's regularly failing
           # on a small personal site.
-          TERMINUS_BUILD_TOOLS_WORKFLOW_TIMEOUT: 300
+          TERMINUS_BUILD_TOOLS_WORKFLOW_TIMEOUT: 600
         run: |
           # Push to Pantheon
           set +e
